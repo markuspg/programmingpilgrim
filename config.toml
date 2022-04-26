@@ -1,4 +1,4 @@
-baseURL = "https://markuspg.github.io/"
+baseURL = "https://markuspg.github.io"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Programming Pilgrim"
@@ -17,11 +17,13 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   name = "Markus Prasser"
 
 [blackfriday]
-  hrefTargetBlank = true
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
 
 [taxonomies]
   tag = "tags"
-  category = ""  # Categories are disabled by default.
+  # Categories are disabled by default.
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -41,8 +43,12 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = "https://github.com/username/repository/commit/"
 
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = false  # Set "text-align: justify" to .content.
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false  # Set "text-align: justify" to `.content`.
+
+  relatedPosts = false  # Add a related content section to all single posts page
+
+  code_copy_button = true # Turn on/off the code-copy-button for code-fields
 
   # Add custom css
   # customCSS = ["css/foo.css", "css/bar.css"]
@@ -57,18 +63,18 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   #   name = "instagram"
   #   url = "https://instagram.com/"
 
-  # [[params.social]]
-  #   name = "github"
-  #   url = "https://github.com/"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/markuspg"
 
 [menu]
 
   [[menu.main]]
     name = "Posts"
-    url = "/posts/"
+    url = "posts/"
     weight = 10
 
   [[menu.main]]
     name = "About"
-    url = "/about/"
+    url = "about/"
     weight = 20
