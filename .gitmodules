@@ -1,7 +1,7 @@
-[submodule "themes/hermit"]
-	path = themes/hermit
-	url = https://github.com/Track3/hermit.git
 [submodule "GitHub Pages"]
 	path = public
 	url = https://github.com/markuspg/markuspg.github.io.git
 	branch = master
+[submodule "themes/paper_mod"]
+	path = themes/paper_mod
+	url = https://github.com/adityatelange/hugo-PaperMod.git

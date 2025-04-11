@@ -1,0 +1,5 @@
+baseURL: https://markuspg.github.io
+languageCode: en-us
+title: Programming Pilgrim
+theme: ["paper_mod"]
+author: Markus Prasser
