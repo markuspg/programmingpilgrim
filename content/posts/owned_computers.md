@@ -1,7 +1,7 @@
 +++
 title = 'A Trip Down Memory Lane - Computing'
 date = 2025-05-03T12:19:43+02:00
-draft = true
+draft = false
 +++
 
 Recently I wondered how many computers I had owned and used already. By gut feeling it didn't seem like that many, but thinking about it it became a rather big number.
